@@ -1,4 +1,4 @@
-![image](https://github.com/Alex21c/m6node-weekly-test-3-error-handling-middleware-for-user-registration/assets/8662648/28ad65e2-2dbb-4258-a911-e0e326c19e63)# Error Handling Middleware for User Registration(Weekly Test 3, Module #6, MERN Stack)
+# Error Handling Middleware for User Registration(Weekly Test 3, Module #6, MERN Stack)
 ![](thumbnail.png)
 
 ## Objective:
@@ -30,8 +30,23 @@ http://localhost:4000/register-user
 ```
 
 ## Request Body
+![](Images/requestBody.png)
 
+## Success Reponse 
+```javascript
+{
+    "success": true,
+    "message": "We received yours request to sign-up, and it's all valid, thank you!"
+}
+```
 
+## Failure Response
+```javascript
+{
+    "success": false,
+    "message": "related failure message"
+}
+```
 
 
 ## Tech. Stack Used:
