@@ -24,6 +24,10 @@ npm install
 npm run start
 ```
 
+## Postman.json file having API Endpoints 
+[Postman API Endpoints.json](m6node-weekly-test-3-error-handling-middleware-for-user-registration.postman_collection.json)
+
+
 ## API End Point
 ```javascript
 http://localhost:4000/register-user
