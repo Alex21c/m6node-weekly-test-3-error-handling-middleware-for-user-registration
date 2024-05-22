@@ -1,4 +1,4 @@
-# Error Handling Middleware for User Registration(Weekly Test 3, Module #6, MERN Stack)
+![image](https://github.com/Alex21c/m6node-weekly-test-3-error-handling-middleware-for-user-registration/assets/8662648/28ad65e2-2dbb-4258-a911-e0e326c19e63)# Error Handling Middleware for User Registration(Weekly Test 3, Module #6, MERN Stack)
 ![](thumbnail.png)
 
 ## Objective:
@@ -23,6 +23,16 @@ To build an error handling middleware for a user registration system. The system
 npm install
 npm run start
 ```
+
+## API End Point
+```javascript
+http://localhost:4000/register-user
+```
+
+## Request Body
+
+
+
 
 ## Tech. Stack Used:
 + [MongoDB](https://www.mongodb.com/) 
