@@ -1,0 +1,25 @@
+{
+  "name": "m6node-weekly-test-3-error-handling-middleware-for-user-registration",
+  "version": "1.0.0",
+  "description": "To build an error handling middleware for a user registration system. The system will accept requests from Postman for user registration, and it will enforce certain criteria for the input data. The middleware will ensure that the provided data meets specific requirements, and it will respond with appropriate error messages if any criteria are not met.",
+  "main": "index.mjs",
+  "scripts": {
+    "start": "node index.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alex21c/m6node-weekly-test-3-error-handling-middleware-for-user-registration.git"
+  },
+  "keywords": [
+    "error handling middleware for user registration",
+    "middleware",
+    "MERN Stack",    
+    "alex21c"
+  ],
+  "author": "Abhishek kumar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Alex21c/m6node-weekly-test-3-error-handling-middleware-for-user-registration/issues"
+  },
+  "homepage": "https://github.com/Alex21c/m6node-weekly-test-3-error-handling-middleware-for-user-registration#readme"
+}
