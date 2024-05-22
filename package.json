@@ -13,7 +13,7 @@
   "keywords": [
     "error handling middleware for user registration",
     "middleware",
-    "MERN Stack",    
+    "MERN Stack",
     "alex21c"
   ],
   "author": "Abhishek kumar",
@@ -21,5 +21,10 @@
   "bugs": {
     "url": "https://github.com/Alex21c/m6node-weekly-test-3-error-handling-middleware-for-user-registration/issues"
   },
-  "homepage": "https://github.com/Alex21c/m6node-weekly-test-3-error-handling-middleware-for-user-registration#readme"
+  "homepage": "https://github.com/Alex21c/m6node-weekly-test-3-error-handling-middleware-for-user-registration#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1"
+  }
 }

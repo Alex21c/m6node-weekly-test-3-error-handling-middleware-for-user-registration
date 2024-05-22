@@ -1,0 +1,59 @@
+{
+	"info": {
+		"_postman_id": "d35f0dd3-6486-47ba-ac2b-ded5947ab6d2",
+		"name": "m6node-weekly-test-3-error-handling-middleware-for-user-registration",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32540147"
+	},
+	"item": [
+		{
+			"name": "Register User",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "firstName",
+							"value": "Abhishek",
+							"type": "text"
+						},
+						{
+							"key": "lastName",
+							"value": "Kumar",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "Admin123$",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "admina@lex21c.com",
+							"type": "text"
+						},
+						{
+							"key": "phoneNumber",
+							"value": "7538363423",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:4000/register-user",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"register-user"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
